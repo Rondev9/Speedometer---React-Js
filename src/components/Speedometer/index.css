@@ -1,0 +1,62 @@
+.SpeedometerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+}
+.title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.speedometer {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 30px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.image {
+  width: 60vw;
+  height: 50vh;
+  text-align: center;
+  margin-top: 0px;
+}
+.ButtonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.AccelerateButton {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.BrakesButton {
+  background-color: #07080c;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  outline: none;
+}
